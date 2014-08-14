@@ -5,7 +5,7 @@ import subprocess
 
 # OPTIONS #
 filename = 'test' # text file to process (in src/ directory)
-tplname  = 'hand' # template file (in tpl/ directory)
+tplname  = 'default' # template file (in tpl/ directory)
 
 # List of keywords. Must be in lower case.
 keywords = [
