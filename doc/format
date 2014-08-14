@@ -1,0 +1,29 @@
+
+Format
+------
+
+```
+	Nom
+	(Voie)
+
+	Altitude
+	Année
+	Vallée
+	Difficulté/Type
+
+	Départ
+	Refuge
+	Dénivelée
+	Temps
+	Groupe
+
+	Souvenirs/Faits de route
+```
+
+Possibilité d'échapper les : par un \:
+
+Contraintes
+-----------
+
+Souvenirs : Pas plus de la moitié de la page.
+
