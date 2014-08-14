@@ -44,7 +44,7 @@
     <flowPara><flowSpan style="font-weight:bold">Groupe : </flowSpan>Élie, Papa, Denis, Clément, Antonin.</flowPara>
     <flowPara></flowPara>
     <flowPara style="font-weight:bold">Souvenirs/Faits de route</flowPara>
-    <flowPara style="font-style:italic">Très beau temps.</flowPara><flowPara>Escalade d&#x27;arrête très sympa.</flowPara><flowPara>Belle vue sur les Mischabel</flowPara>
+    <flowPara style="font-style:italic">Très beau temps.</flowPara><flowPara style="font-style:italic">Escalade d&#x27;arrête très sympa.</flowPara><flowPara style="font-style:italic">Belle vue sur les Mischabel</flowPara>
   </flowRoot>
 
 </svg>

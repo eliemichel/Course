@@ -48,8 +48,16 @@ with open('tpl/%s.svg' % (tplname,), 'r') as tpl_in:
 
 print('Building vectorial image...')
 
+def replace(v):
+	v = html.escape(v).strip('\n')
+	def _(match):
+		d = match.groupdict()
+		open_tag = '<flowPara%s>' % (d['options'],)
+		return open_tag + d['prefix'] + v.replace('\n', '</flowPara>' + open_tag)
+	return _
+
 for k, v in data.items():
-	tpl = tpl.replace('%%%s%%' % (k,), html.escape(v).strip('\n').replace('\n', '</flowPara><flowPara>'))
+	tpl = re.sub('<flowPara(?P<options>.*?)>(?P<prefix>.*?)%%%s%%' % (k,), replace(v), tpl)
 
 with open('output/%s.svg' % (filename,), 'w') as tpl_out:
 	tpl_out.write(tpl)
