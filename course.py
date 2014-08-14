@@ -2,6 +2,7 @@
 import re
 import html
 import subprocess
+import sys
 
 # OPTIONS #
 filename = 'test' # text file to process (in src/ directory)
@@ -22,6 +23,20 @@ keywords = [
 	'souvenirs',
 ]
 ###########
+
+print('Reading command line arguments...')
+
+cur = ''
+for arg in sys.argv[1:]:
+	if cur != '':
+		#opt[cur] = arg
+		if cur == 'tplname':
+			tplname = arg
+	else:
+		if arg == '-t' or arg == '--template':
+			cur = 'tplname'
+		else:
+			filename = arg
 
 
 print('Loading file %s...' % (filename,))
