@@ -5,7 +5,7 @@ import subprocess
 
 # OPTIONS #
 filename = 'test' # text file to process (in src/ directory)
-tplname  = 'default' # template file (in tpl/ directory)
+tplname  = 'hand' # template file (in tpl/ directory)
 
 # List of keywords. Must be in lower case.
 keywords = [
@@ -49,14 +49,14 @@ with open('tpl/%s.svg' % (tplname,), 'r') as tpl_in:
 print('Building vectorial image...')
 
 for k, v in data.items():
-	tpl = tpl.replace('&lt;%s&gt;' % (k,), html.escape(v).replace('\n', '</flowPara><flowPara>'))
+	tpl = tpl.replace('%%%s%%' % (k,), html.escape(v).strip('\n').replace('\n', '</flowPara><flowPara>'))
 
-with open('output/%s.svg' % (tplname,), 'w') as tpl_out:
+with open('output/%s.svg' % (filename,), 'w') as tpl_out:
 	tpl_out.write(tpl)
 
 
-print('Output final image in output/%s.png...' % (tplname,))
+print('Output final image in output/%s.png...' % (filename,))
 
-subprocess.call(['inkscape', 'output/%s.svg'% (tplname,), '-e', 'output/%s.png' % (tplname,)])
+subprocess.call(['inkscape', 'output/%s.svg'% (filename,), '-e', 'output/%s.png' % (filename,), '-d', '300'])
 
 print('Done.')

@@ -1,269 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.48+devel r13495"
-   viewBox="0 0 744.09447 1052.3622"
-   sodipodi:docname="default.svg">
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="352.46944"
-     inkscape:cy="671.58635"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="723"
-     inkscape:window-x="0"
-     inkscape:window-y="21"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Calque 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.11629105px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="372.04724"
-       y="56.994114"
-       id="text4137"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4139"
-         x="372.04724"
-         y="56.994114">Jegihorn</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4141"
-       y="179.79877"
-       x="49.437504"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="179.79877"
-         x="49.437504"
-         id="tspan4143"
-         sodipodi:role="line">Altitude : 3206m</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="49.437504"
-       y="217.20612"
-       id="text4145"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4147"
-         x="49.437504"
-         y="217.20612">Année : 2011</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32.74865723px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="372.03925"
-       y="99.851265"
-       id="text4149"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4151"
-         x="372.03925"
-         y="99.851265">(Arrête Sud)</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4153"
-       y="254.61349"
-       x="49.437504"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="254.61349"
-         x="49.437504"
-         id="tspan4155"
-         sodipodi:role="line">Vallée : Saastal</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="49.437504"
-       y="292.02078"
-       id="text4157"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4159"
-         x="49.437504"
-         y="292.02078">Difficulté : AD-/rocher</tspan></text>
-    <path
-       sodipodi:nodetypes="cc"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.857131,360.93361 82.142859,0"
-       id="path5507"
-       inkscape:connector-curvature="0" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text4161"
-       y="356.24603"
-       x="49.437504"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="356.24603"
-         x="49.437504"
-         id="tspan4163"
-         sodipodi:role="line">Départ : Kreuzboden (2620)</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path5509"
-       d="m 52.857131,397.71932 86.785719,0"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="49.437504"
-       y="393.65332"
-       id="text4165"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4167"
-         x="49.437504"
-         y="393.65332">Refuge : /</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4169"
-       y="431.0607"
-       x="49.437504"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="431.0607"
-         x="49.437504"
-         id="tspan4171"
-         sodipodi:role="line">Dénivelée : 600m/200m d'escalade</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path5513"
-       d="m 52.857131,473.79074 81.428579,0"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="49.437504"
-       y="468.46802"
-       id="text4173"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4175"
-         x="49.437504"
-         y="468.46802">Temps : 2h pour l'attaque, 2h30 d'escalade. Descente 1h30.</tspan></text>
-    <path
-       sodipodi:nodetypes="cc"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.857131,510.21931 93.214289,0"
-       id="path5515"
-       inkscape:connector-curvature="0" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text4177"
-       y="505.8754"
-       x="49.437504"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="505.8754"
-         x="49.437504"
-         id="tspan4179"
-         sodipodi:role="line">Groupe : Élie, Papa, Denis, Clément, Antonin.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="49.437504"
-       y="571.00427"
-       id="text4181"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="49.437504"
-         y="571.00427"
-         id="tspan4185">Souvenirs/Faits de route :</tspan></text>
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect5489"
-       width="651.42859"
-       height="400"
-       x="48.571419"
-       y="580.93359" />
-    <flowRoot
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.82721138px;line-height:125%;font-family:Spinnaker;-inkscape-font-specification:Spinnaker;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot5491"><flowRegion
-         id="flowRegion5493"><use
-           x="0"
-           y="0"
-           xlink:href="#rect5489"
-           id="use5495"
-           width="100%"
-           height="100%" /></flowRegion><flowPara
-         id="flowPara5497">Très beau temps.
-Escalade d'arrête très sympa.
-Belle vue sur les Mischabel</flowPara></flowRoot>    <path
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.857131,183.79075 95.714289,0"
-       id="path5499"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path5501"
-       d="m 52.857131,221.29075 78.214289,0"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:nodetypes="cc"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.857131,259.50504 72.142859,0"
-       id="path5503"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path5505"
-       d="m 52.857131,297.00504 112.499999,0"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:nodetypes="cc"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.857131,435.9336 120.000009,0"
-       id="path5511"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path5517"
-       d="m 52.857131,574.86217 314.285719,0"
-       style="fill:none;fill-rule:evenodd;stroke:#a0a0a0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="cc" />
-  </g>
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="210mm"
+  height="297mm"
+  id="handtemplate"
+  version="1.2"
+  viewBox="0 0 210 297">
+
+  <rect
+    id="textarea"
+    style="fill:none"
+    width="190"
+    height="277"
+    x="10"
+    y="10" />
+  <flowRoot
+    xml:space="preserve"
+    style="font-size:8;line-height:125%;font-family:Sansation;fill:#000000;text-align:left;text-anchor:left">
+    <flowRegion>
+      <use
+        x="0"
+        y="0"
+        xlink:href="#textarea"
+        width="100%"
+        height="100%" />
+    </flowRegion>
+    <flowSpan style="text-align:center;text-anchor:middle;font-size:10">
+      <flowPara style="font-weight:bold">Jegihorn</flowPara>
+      <flowPara style="font-style:italic">(Arrête Sud)</flowPara>
+    </flowSpan>
+    <flowPara></flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Altitude : </flowSpan>3206m</flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Année : </flowSpan>2011</flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Vallée : </flowSpan>Saastal</flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Difficulté : </flowSpan>AD-/rocher</flowPara>
+    <flowPara></flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Départ : </flowSpan>Kreuzboden (2620)</flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Refuge : </flowSpan>/</flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Dénivelée : </flowSpan>600m/200m d&#x27;escalade</flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Temps : </flowSpan>2h pour l&#x27;attaque, 2h30 d&#x27;escalade. Descente 1h30.</flowPara>
+    <flowPara><flowSpan style="font-weight:bold">Groupe : </flowSpan>Élie, Papa, Denis, Clément, Antonin.</flowPara>
+    <flowPara></flowPara>
+    <flowPara style="font-weight:bold">Souvenirs/Faits de route</flowPara>
+    <flowPara style="font-style:italic">Très beau temps.</flowPara><flowPara>Escalade d&#x27;arrête très sympa.</flowPara><flowPara>Belle vue sur les Mischabel</flowPara>
+  </flowRoot>
+
 </svg>
