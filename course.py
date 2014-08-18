@@ -3,10 +3,14 @@ import re
 import html
 import subprocess
 import sys
+from os.path import join
 
 # OPTIONS #
-filename = 'test' # text file to process (in src/ directory)
-tplname  = 'default' # template file (in tpl/ directory)
+src_dir  = 'src'     # Directory that contains "Course" files
+tpl_dir  = 'tpl'     # Directory that contains templates
+out_dir  = 'output'  # Directory where created files are stored
+filename = 'test'    # Default text file to process (in src_dir directory)
+tplname  = 'default' # Default template file (in tpl_dir directory)
 
 # List of keywords. Must be in lower case.
 keywords = [
@@ -41,7 +45,7 @@ for arg in sys.argv[1:]:
 
 print('Loading file %s...' % (filename,))
 
-with open('src/' + filename, 'r') as src_in:
+with open(join(src_dir, filename), 'r') as src_in:
 	src = src_in.read()
 
 print('Parsing input file...')
@@ -57,7 +61,7 @@ data.update(header_data)
 
 print('Loading template %s...' % (tplname,))
 
-with open('tpl/%s.svg' % (tplname,), 'r') as tpl_in:
+with open(join(tpl_dir, tplname + '.svg'), 'r') as tpl_in:
 	tpl = tpl_in.read()
 
 
@@ -74,12 +78,12 @@ def replace(v):
 for k, v in data.items():
 	tpl = re.sub('<flowPara(?P<options>.*?)>(?P<prefix>.*?)%%%s%%' % (k,), replace(v), tpl)
 
-with open('output/%s.svg' % (filename,), 'w') as tpl_out:
+with open(join(out_dir, filename + '.svg'), 'w') as tpl_out:
 	tpl_out.write(tpl)
 
 
-print('Output final image in output/%s.png...' % (filename,))
+print('Output final image in %s...' % (join(out_dir, filename + '.png'),))
 
-subprocess.call(['inkscape', 'output/%s.svg'% (filename,), '-e', 'output/%s.png' % (filename,), '-d', '300'])
+subprocess.call(['inkscape', join(out_dir, filename + '.svg'), '-e', join(out_dir, filename + '.png'), '-d', '300'])
 
 print('Done.')
