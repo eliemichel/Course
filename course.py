@@ -21,7 +21,7 @@ keywords = [
 	'départ',
 	'refuge',
 	'temps',
-	'dénivelée',
+	'dénivelé',
 	'temps',
 	'groupe',
 	'souvenirs',
@@ -58,7 +58,7 @@ class Course():
 
 	def parse(self):
 		log('Parsing input file...')
-		r = '\n(%s)\\s*:\\s*(?i)' % ('|'.join(keywords),)
+		r = '(%s)\\s*:\\s*(?i)' % ('|'.join(keywords),)
 		s = re.split(r, self.src)
 		self.data = {k.lower(): v for k, v in zip(s[1::2], s[2::2])}
 
@@ -70,7 +70,7 @@ class Course():
 		log('Building vectorial image...')
 
 		def replace(v):
-			v = html.escape(v).strip('\n')
+			v = html.escape(v).replace('\r\n', '\n').strip('\n')
 			def _(match):
 				d = match.groupdict()
 				open_tag = '<flowPara%s>' % (d['options'],)
@@ -84,18 +84,26 @@ class Course():
 	def save_svg(self, f=None):
 		f = f or join(out_dir, self.filename + '.svg')
 		log('Save SVG image to %s...' % (f,))
-		with open(f, 'w') as out:
-			out.write(self.svg_file)
+		with open(f, 'wb') as out:
+			out.write(self.svg_file.encode('utf-8'))
 
-
-	def save_png(self, f=None, save_png=True):
+	def save_png(self, f=None, save_svg=True):
 		f_png = f or join(out_dir, self.filename + '.png')
 		f_svg = join(out_dir, self.filename + '.svg')
-		if save_png: self.save_svg(f_svg)
+		if save_svg: self.save_svg(f_svg)
 		log('Save PNG image to %s...' % (f_png,))
 		log('== Inkscape output ==')
 		subprocess.call(['inkscape', f_svg, '-e', f_png, '-d', '300'])
 		log('== End of Inkscape output ==')
+	
+	def save_jpg(self, f=None, save_png=True):
+		f_jpg = f or join(out_dir, self.filename + '.jpg')
+		f_png = join(out_dir, self.filename + '.png')
+		if save_png: self.save_png(f_png)
+		log('Save JPG image to %s...' % (f_jpg,))
+		log('== ImageMagick output ==')
+		subprocess.call(['magick', 'convert', f_png, f_jpg])
+		log('== End of ImageMagick output ==')
 
 	def export_svg(self):
 		self.load()
@@ -106,7 +114,11 @@ class Course():
 
 	def export_png(self):
 		self.export_svg()
-		self.save_png(save_png=False)
+		self.save_png(save_svg=False)
+		
+	def export_jpg(self):
+		self.export_png()
+		self.save_jpg(save_png=False)
 
 
 def parse_args(options, argv=None):
@@ -137,12 +149,13 @@ if __name__ == '__main__':
 	})
 
 	if len(args[...]) < 1:
-		log('You must specify a Course name', 0)
-		exit(1)
+		print('Entrez le nom de la course : ', end='')
+		course = input()
+		args[...] = [course]
 
 	name = args[...][0]
 
 	c = Course(name, args['tplname'])
-	c.export_png()
+	c.export_jpg()
 
 	log('Done.')
