@@ -8,8 +8,8 @@ from os.path import join
 # OPTIONS #
 src_dir  = 'src'     # Directory that contains "Course" files
 tpl_dir  = 'tpl'     # Directory that contains templates
-out_dir  = 'output'  # Directory where created files are stored
-default_tplname = 'default.svg' # Default template file (in tpl_dir directory)
+out_dir  = 'output-petit'  # Directory where created files are stored
+default_tplname = 'petit.svg' # Default template file (in tpl_dir directory)
 loglevel = 3         # Log level (amount of information displayed). -1: mute (not implemented), 0: Error only, 1: Warnings, 2: Info, 3: Verbose
 
 # List of keywords. Must be in lower case.
